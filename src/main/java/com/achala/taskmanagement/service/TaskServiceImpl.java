@@ -46,7 +46,7 @@ public class TaskServiceImpl implements TaskService{
 
         existing.setTaskName(updatedTask.getTaskName());
         existing.setDescription(updatedTask.getDescription());
-        existing.setComleted(updatedTask.isComleted());
+        existing.setCompleted(updatedTask.isCompleted());
 
         return taskRepository.save(existing);
 	}
