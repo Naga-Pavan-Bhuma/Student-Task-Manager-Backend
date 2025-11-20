@@ -9,18 +9,31 @@ It provides RESTful APIs for creating, reading, updating, and deleting student t
 
 student-task-manager-backend/
 │── src/
+
 │ ├── main/
+
 │ │ ├── java/
+
 │ │ │ └── com.example.taskmanager/
+
 │ │ │ ├── controller/ # Handles API requests
+
 │ │ │ ├── service/ # Business logic
+
 │ │ │ ├── repository/ # Database operations using JPA
+
 │ │ │ ├── model/ # Entity classes (Task)
+
 │ │ │ └── TaskManagerApplication.java
+
 │ │ └── resources/
+
 │ │ ├── application.properties # Database configuration
+
 │ │ └── schema.sql / data.sql # Optional DB initialization scripts
+
 │── pom.xml # Dependencies
+
 └── README.md
 
 yaml
